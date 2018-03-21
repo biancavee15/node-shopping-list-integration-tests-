@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: mlxDmiDydeD2Ti7uSvIa4Gxc+pkuGHlanYfD6X+5m9iSKT49pw/10p/save+YtRJ06sfLM9uVNzfbnIn1hpUkOar2hU1azXuL8khiOunC12hdhlAUoclig9HHwKVs7Hw9eaAGJaVsN9t7F1l9Dz7KWxeRpW7Mq+6WWl7mOq8R4fqOw892JYH/O7aud/TsIX2/pq0paCBFpK39QCpxMtjXVZ1v5a57wR1/ylvwWL0EWAMoY1At+3jqwyCbq2ft0/OxEA+JfP4WCriREgouEiueowMUdfXIFerlk9DxVCcqyOp4rJJJFWP205w5YqXSOuGgQf+nJG/F+Us0JLExM0zloc2JrxeMOhhM+MwzJhy4KJa0KTRuFdS+aKzIb0u82yvO5G3CHLQ13ADfbCgaHmM0bzSRPaYF/5ubSIMGSX4K9NYgwAB0dV3bpxOMONmuiP3FalSh3dNfkoCBiPNxPidPq07gOAxjiGj9txIxS1YTrI+DsWuL9wViDUromZLoRvmtciMZRggVGSep/OwpMd+UPI2R4QHk4tUjhRxLWZP/Waoe3OIZrzDgd4kkUcrLEndkTeYrzE67MPdbLXB1PUiEJSQTL7FNyceEPg3MAH0Y26JM28b/ztPSRjGPprmGdgxrOpvFGLgF9yc8R54AWSaD5ntNPPkdmAo35UJAWR55qA=
+  app: https://shielded-lake-61994.herokuapp.com/
+  on:
+    repo: biancavee15/node-shopping-list-integration-tests-
